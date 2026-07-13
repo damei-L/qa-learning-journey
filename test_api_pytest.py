@@ -47,3 +47,7 @@ def test_list_posts_with_params():
     data = response.json()
     assert len(data) > 0
     assert data[0]["userId"] == 1
+
+
+
+    
