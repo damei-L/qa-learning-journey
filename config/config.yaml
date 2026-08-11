@@ -1,0 +1,14 @@
+# API测试框架配置
+base_url: "https://jsonplaceholder.typicode.com"
+timeout: 10
+
+headers:
+  Content-Type: "application/json"
+  Accept: "application/json"
+
+# 测试数据
+test_users:
+  - user_id: 1
+    expected_posts: 10
+  - user_id: 2
+    expected_posts: 10
